@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Epilogue&family=Poppins&display=swap');
+:root{
+--Darkbrown: hsl(25, 47%, 15%);
+--Mediumbrown: hsl(28, 10%, 53%);
+--Cream: hsl(27, 66%, 92%);
+--pale: hsl(33, 100%, 98%);
+--Softred: hsl(10, 79%, 65%);
+--Cyan: hsl(186, 34%, 60%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    background:var(--Cream);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 350px;
+    height: 400px;
+}
+.title{
+    color: #fff;
+    font-size: 12px;
+    opacity: 0.9;
+}
+.title-elips{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: var(--Softred);
+    border-radius: 10px;
+}
+.ellips{
+    width: 50px;
+}
+.ellips img{
+    width: 50px;
+}
+
+/* MAİN */
+
+.rate-title{
+    background: var(--pale);
+    width: 100%;
+    height: 48vh;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+.rate h2{
+    color: var(--Darkbrown);
+    padding: 15px;
+}
+.spans{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.mons{
+    background-color: var(--Softred);
+    width: 40px;
+    border-radius: 3px;
+    height: 50px;
+    position: absolute;
+    bottom: 1.2rem;
+    left: -4px;
+    
+}
+.mon{
+    position: relative;
+}
+
+.tue{
+    position: relative;
+}
+.tues{
+    background-color: var(--Softred);
+    width: 40px;
+    border-radius: 3px;
+    height: 80px;
+    position: absolute;
+    bottom: 1.2rem;
+    left: -7px;
+}
+.wed{
+    position: relative;
+
+}
+.weds{
+    background-color: var(--Cyan);
+    width: 40px;
+    border-radius: 3px;
+    height: 120px;
+    position: absolute;
+    bottom: 1.2rem;
+    left: -5px;
+}
+.thu{
+    position: relative;
+
+}
+.thus{
+    background-color: var(--Softred);
+    width: 40px;
+    border-radius: 3px;
+    height: 70px;
+    position: absolute;
+    bottom: 1.2rem;
+    left: -9px;
+}
+.fri{
+position: relative;
+}
+.fris{
+    background-color: var(--Softred);
+    width: 40px;
+    border-radius: 3px;
+    height: 50px;
+    position: absolute;
+    bottom: 1.2rem;
+    left: -9px;
+}
+.sat{
+    position: relative;
+
+}
+.sats{
+    background-color: var(--Softred);
+    width: 40px;
+    border-radius: 3px;
+    height: 100px;
+    position: absolute;
+    bottom: 1.2rem;
+    left: -2px;
+}
+.sun{
+    position: relative;
+
+}
+.suns{
+    background-color: var(--Softred);
+    width: 40px;
+    border-radius: 3px;
+    height: 60px;
+    position: absolute;
+    bottom: 1.2rem;
+    left: -2px;
+}
+span:Hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.price{
+    background-color: var(--Darkbrown);
+    color: white;
+    border-radius:5px;
+    position: absolute;
+    top: -35px;
+    left: -5px;
+    padding: 5px;
+    display: none;
+}
+span:hover .price{
+    display: block;
+}
+/* FOOTER */
+
+
+.footer-t{
+    padding: 15px;
+    color: var(--Darkbrown);
+}
+.footer-t p{
+    font-size: 12px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -9px;
+}
+.footer-title h4{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.footer-title p{
+    font-size: 12px;
+}
+.footer-title{
+    padding: 15px;
+    margin-top: 7px;
+}
+
+/* Konfeti animasyonu */
+/* @keyframes konfeti {
+    0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100px) rotate(720deg);
+      opacity: 0;
+    }
+  }
+  
+  /* Konfeti parçası */
+  /* .konfeti-parcasi {
+    position: absolute;
+    overflow: hidden;
+    width: 10px;
+    height: 10px;
+    background-image: url("https://w7.pngwing.com/pngs/409/250/png-transparent-button-icon-button-miscellaneous-sphere-magenta.png");
+    background-size: cover;
+    animation: konfeti 3s linear infinite;
+    
+  } */ 
+  
